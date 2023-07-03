@@ -39,7 +39,6 @@ FloatColor Biome::getFoliageColor(float temp, float rain) const {
 	return colorFromParams(temp, rain, false);
 }
 
-
 FloatColor Biome::getBlockColor(const BlockType *type, y_idx_t height) const {
 	FloatColor c = {
 		float(type->color.r),
@@ -69,7 +68,6 @@ FloatColor Biome::getBlockColor(const BlockType *type, y_idx_t height) const {
 
 	return c;
 }
-
 
 class SwampBiome : public Biome {
 protected:
@@ -151,6 +149,7 @@ static const Biome BiomeJaggedPeaks(-0.7f, 0.9f);
 static const Biome BiomeStonyPeaks(1.0f, 0.3f);
 static const Biome BiomeSnowySlopes(-0.3f, 0.9f);
 static const SwampBiome BiomeMangroveSwamp(0.8f, 0.9f, {0.227f, 0.478f, 0.416f});
+static const Biome BiomeCherryGrove(0.5f, 0.8f);
 
 const Biome *const Biome::Default = &BiomeDefault;
 
@@ -217,7 +216,7 @@ const Biome *const Biome::Biomes[256] = {
 	/*  55 */ &BiomeSnowySlopes, /* MinedMap assignment */
 	/*  56 */ &BiomeMangroveSwamp, /* MinedMap assignment */
 	/*  57 */ nullptr,
-	/*  58 */ nullptr,
+	/*  58 */ &BiomeCherryGrove,
 	/*  59 */ nullptr,
 	/*  60 */ nullptr,
 	/*  61 */ nullptr,
@@ -442,6 +441,7 @@ const std::unordered_map<std::string, uint8_t> Biome::Names = {
 	{ "minecraft:wooded_badlands_plateau", 38 }, /* 1.18: Renamed to wooded_badlands */
 	{ "minecraft:wooded_hills", 18 }, /* 1.18: Merged into forest */
 	{ "minecraft:wooded_mountains", 34 /* 1.18: Renamed to windswept_forest */},
+	{ "minecraft:cherry_grove", 58 /* 1.18: Renamed to windswept_forest */},
 };
 
 }
