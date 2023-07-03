@@ -1,0 +1,15 @@
+/workspaces/MinedMap/MinedMap-build/CMakeFiles/edit_cache.dir
+/workspaces/MinedMap/MinedMap-build/CMakeFiles/rebuild_cache.dir
+/workspaces/MinedMap/MinedMap-build/CMakeFiles/list_install_components.dir
+/workspaces/MinedMap/MinedMap-build/CMakeFiles/install.dir
+/workspaces/MinedMap/MinedMap-build/CMakeFiles/install/local.dir
+/workspaces/MinedMap/MinedMap-build/CMakeFiles/install/strip.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/MinedMap.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/nbtdump.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/regiondump.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/edit_cache.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/rebuild_cache.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/list_install_components.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/install.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/install/local.dir
+/workspaces/MinedMap/MinedMap-build/src/CMakeFiles/install/strip.dir
